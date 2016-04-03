@@ -2,7 +2,7 @@ module ax12(render)
 {
 	if( render == 1 )
 	{
-		color("grey") import("dynamixel/ax12.stl");
+		color("grey") import("Dynamixel/ax12.stl");
 	}
 	else
 	{
@@ -14,7 +14,7 @@ module f3(render)
 {
 	if( render == 1 )
 	{
-		color("white")  import("dynamixel/f3.stl");
+		color("white")  import("Dynamixel/f3.stl");
 	}
 	else
 	{
@@ -26,7 +26,7 @@ module f2(render)
 {
 	if( render == 1 )
 	{
-		color("white")  import("dynamixel/f2.stl");
+		color("white")  import("Dynamixel/f2.stl");
 	}
 	else
 	{
